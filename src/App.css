@@ -1,0 +1,48 @@
+
+.App{
+  width: 420px;
+  background-color: bisque;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.header{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  padding: 0 1em;
+}
+
+.app-name{
+  margin-right: auto;
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.svg{
+  height:2em;
+  fill: none;
+  stroke: black;
+}
+
+.user-notification{
+  stroke-width: 4;
+}
+
+.user-messages{
+  fill: black;
+  stroke: none;
+}
+
+.user-notification:hover{
+  fill: black;
+}
