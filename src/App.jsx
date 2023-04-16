@@ -10,7 +10,15 @@ function App() {
   const [posts , setPosts] = useState([])
 
   // useEffect(()=>{
-  //   fetch('https://www.instagram.com/graphql/query/?query_hash=472f257a40c653c64c666ce877d59d2b&variables={"id":"93024","first":12,"after":"XXXXXXXX"}')
+  //   fetch('https://instagram47.p.rapidapi.com/user_following?userid=1718924098',
+  //   {
+  //     method: 'GET',
+  //     headers: {
+  //       'X-RapidAPI-Key': '1e70e5d09amshdf1eb4eedbc71acp1cebf7jsn509094adad41',
+  //       'X-RapidAPI-Host': 'instagram47.p.rapidapi.com'
+  //     }
+  //   }
+  //   )
   //     .then(res => res.json())
   //     .then(data=> console.log(data))
   // },[])

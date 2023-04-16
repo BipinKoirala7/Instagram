@@ -8,7 +8,7 @@
   transform: translate(-50%,-50%);
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr auto 10fr 1fr;
+  grid-template-rows: 1fr 2fr 10fr 1fr;
   grid-template-areas: 
     "h h h"
     "s s s"
@@ -79,23 +79,26 @@ button{
 }
 
 .stroy-collection{
+  padding: 0 1em;
   grid-area: s;
   display: flex;
-  row-gap: 1em;
+  column-gap: .5em;
   overflow-x:scroll;
   flex-wrap: nowrap;
+  align-items:center;
 }
 
-/* .story{
+.story{
+  aspect-ratio: 1/1;
+  display: flex;
   border-radius: 50%;
-  border:1px solid red;
-} */
+  background: linear-gradient(to left,red,pink);
+}
 
 .story-svg{
   aspect-ratio: 1/1;
-  width: 5em;
+  width: 4.5em;
   fill: white;
-  border-radius: 50%;
 }
 
 .footer{
