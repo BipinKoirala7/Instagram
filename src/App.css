@@ -88,16 +88,14 @@ button{
   align-items:center;
 }
 
-/* .story{
+.story{
   aspect-ratio: 1/1;
   display: flex;
   border-radius: 50%;
   background: linear-gradient(to left,red,pink);
-} */
-
-.fa-solid{
-  font-size: 3em;
 }
+
+
 
 .story-svg{
   aspect-ratio: 1/1;
