@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 
-export default memo(function Header(){
+export default memo(function Header_home(){
     return(
         <div className="header">
             <p className="app-name">Instagram</p>
