@@ -21,7 +21,7 @@
 .header{
   grid-area: h;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
   width: 100%;
   padding: 0 1em;
@@ -42,6 +42,9 @@ button{
 .btn{
   width: 4em;
   aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn:hover{
