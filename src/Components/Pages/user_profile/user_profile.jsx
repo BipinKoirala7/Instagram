@@ -10,19 +10,19 @@ import './user_profile.css'
 
 function UserProfile(){
     return(
-        <div className="user-profile">
+        <div className="p-4">
             <ProfileHeader />
             <UserInfo />
             <UserStoryHighlights />
-            <div className="user-upload-collections">
-                <Link to="user_posts" ><button style={{background:'white'}} className="user-posts-select">Posts</button></Link>
-                <Link to="user_video"><button style={{background:'white'}} className="user-video-select">Video</button></Link>
+            <div className="flex items-center justify-evenly">
+                <Link to="user_profile/user_posts" ><button className="bg-slate-800 border-0 text-white px-8 py-2 rounded-[.5em] text-lg">Posts</button></Link>
+                <Link to="user_profile/user_video"><button className="bg-slate-800 border-0 text-white px-8 py-2 rounded-[.5em] text-lg">Video</button></Link>
             </div>
             <Routes>
-                <Route exact path="user_profile/user_posts" element={<UserPostsCollection />}/>
+                <Route path="user_profile/user_posts" element={<UserPostsCollection />}/>
             </Routes>
             <Routes>
-                <Route exact path="user_profile/user_video" element={<UserVideoCollections />}/>
+                <Route path="user_profile/user_video" element={<UserVideoCollections />}/>
             </Routes>
         </div>
     )

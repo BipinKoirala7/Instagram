@@ -1,4 +1,4 @@
-.App{
+/* .App{
   width: 380px;
   background-color: rgb(0, 0, 0);
   color: white;
@@ -16,28 +16,28 @@
     "f f f"
   ;
   height: 100vh;
-}
+} */
 
-.header{
+/* .header{
   grid-area: h;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   padding: 0 1em;
-}
-
+} */
+/* 
 .app-name{
   margin-right: auto;
   font-family: 'Lobster', cursive;
   font-size: 2em;
-}
+} */
 
-button{
+/* button{
   background-color: transparent;
   border: none;
   cursor: pointer;
-}
+} */
 
 .btn{
   width: 4em;

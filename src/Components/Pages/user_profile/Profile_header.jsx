@@ -2,8 +2,9 @@ import React from "react";
 
 export default function ProfileHeader (){
     return (
-        <div className="profile-header">
-            <p className="user-id">koiralabipen</p>
+        <div className="flex gap-3 items-center">
+            <h3 className="font-semibold text-xl">koiralabipen</h3>
+            <i class="fa-solid fa-chevron-down"></i>
         </div>
     )
 }

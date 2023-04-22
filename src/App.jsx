@@ -13,7 +13,8 @@ import Home from './Components/Pages/home/home'
 function App() {
 
   return (
-    <div className="App">
+    <div className="w-[380px] bg-black text-white fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] grid grid-cols-1 grid-rows-app-grid h-screen">
+      <div>
       <Routes>
           <Route exact path='/' element={
             <>
@@ -39,6 +40,7 @@ function App() {
             }
             />
       </Routes>
+      </div>
       <Footer />
     </div>
   )

@@ -3,31 +3,31 @@ import React from "react";
 export default function UserInfo(){
     return (
         <>
-        <div className="user-main-info">
-            <div className="user-profile">
-                <img src="" alt="" className="user-profile-pic" />  
+        <div className="grid grid-cols-4 ">
+            <div className="mt-4">
+                <img src="" alt="" className="bg-yellow-900 w-20 aspect-square rounded-[100%]" />  
             </div>
-            <div className="user-post-info">
-                <button className="user-btn user-post-count">0</button>
+            <div className="flex flex-col gap-1 items-center justify-center font-medium ">
+                <button className="">0</button>
                 <p>Post</p>
             </div>
-            <div className="user-followers-info">
-                <button className="user-btn user-followers-count">152</button>
+            <div className="flex flex-col gap-1 items-center justify-center font-medium ">
+                <button className="">152</button>
                 <p>Followers</p>
             </div>
-            <div className="user-following-info">
-                <button className="user-btn user-following-count">162</button>
+            <div className="flex flex-col gap-1 items-center justify-center font-medium ">
+                <button className="">162</button>
                 <p>Following</p>
             </div>
         </div>
-        <div className="user">
-            <p className="user-name">Bipin koirala</p>
-            <p className="user-description">Ntg</p>
+        <div className="mb-2">
+            <p className="text-lg">Bipin koirala</p>
+            <p className="text-sm">Ntg</p>
         </div>
-            <div className="user-info-edit">
-                <button className="user-edit-profile">Edit Profile</button>
-                <button className="user-share-profile">Share Profile</button>
-                <button className="user-add">Add</button>
+            <div className="grid grid-cols-user-edit gap-2">
+                <button className="bg-gray-600 px-0 py-2 rounded-[.5rem]">Edit Profile</button>
+                <button className="bg-gray-600 px-0 py-2 rounded-[.5rem]">Share Profile</button>
+                <button className="bg-gray-600 px-0 py-2 rounded-[.5rem]">Add</button>
             </div>
         </>
     )
