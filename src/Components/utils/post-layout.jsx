@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function post() {
+export default function post(props) {
   return (
     <div className="flex flex-col h-fit">
         <div className="px-4 flex py-2 items-center gap-2">
