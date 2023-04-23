@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 export default memo(function Footer() {
   return (
-    <div className="footer row-span-4 col-start-1 col-end-4 flex items-center justify-evenly border-t-1 border-gray-700">
+    <div className="row-span-4 col-start-1 col-end-4 flex items-center justify-evenly border-t-1 border-gray-700">
       <NavLink
         style={(isActive) => {
           return isActive.isActive
@@ -12,9 +12,9 @@ export default memo(function Footer() {
         }}
         to="/"
       >
-        <button className="w-16 aspect-square flex items-center justify-center hover:bg-[rgb(43,41,41)] hover:rounded-[50%]">
+        <button className="w-12 aspect-square flex items-center justify-center hover:bg-[rgb(43,41,41)] hover:rounded-[50%]">
           <svg
-            className="w-8 h-8  stroke-white"
+            className="w-7 h-7  stroke-white"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -45,9 +45,9 @@ export default memo(function Footer() {
         }}
         to="/search"
       >
-        <button className="w-16 aspect-square flex items-center justify-center hover:bg-[rgb(43,41,41)] hover:rounded-[50%]">
+        <button className="w-12 aspect-square flex items-center justify-center hover:bg-[rgb(43,41,41)] hover:rounded-[50%]">
           <svg
-            className="w-8 h-8   stroke-white"
+            className="w-7 h-7   stroke-white"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -76,9 +76,9 @@ export default memo(function Footer() {
         }}
         to="/create"
       >
-        <button className="w-16 aspect-square flex items-center justify-center hover:bg-[rgb(43,41,41)] hover:rounded-[50%]">
+        <button className="w-12 aspect-square flex items-center justify-center hover:bg-[rgb(43,41,41)] hover:rounded-[50%]">
           <svg
-            className="w-8 h-8  stroke-white"
+            className="w-7 h-7  stroke-white"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -104,9 +104,9 @@ export default memo(function Footer() {
         }}
         to="/video"
       >
-        <button className="w-16 aspect-square flex items-center justify-center hover:bg-[rgb(43,41,41)] hover:rounded-[50%]">
+        <button className="w-12 aspect-square flex items-center justify-center hover:bg-[rgb(43,41,41)] hover:rounded-[50%]">
           <svg
-            className="w-8 h-8  stroke-white"
+            className="w-7 h-7  stroke-white"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -134,9 +134,9 @@ export default memo(function Footer() {
         }}
         to="/user_profile"
       >
-        <button className="w-16 aspect-square flex items-center justify-center hover:bg-[rgb(43,41,41)] hover:rounded-[50%]">
+        <button className="w-12 aspect-square flex items-center justify-center hover:bg-[rgb(43,41,41)] hover:rounded-[50%]">
           <svg
-            className="w-8 h-8   stroke-white"
+            className="w-7 h-7   stroke-white"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >

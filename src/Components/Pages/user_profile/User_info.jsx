@@ -5,7 +5,7 @@ export default function UserInfo(){
         <>
         <div className="grid grid-cols-4 ">
             <div className="mt-4">
-                <img src="" alt="" className="bg-yellow-900 w-20 aspect-square rounded-[100%]" />  
+                <img src="../cristiano-ronaldo.jpg" alt="" className="bg-yellow-900 w-20 aspect-square rounded-[100%]" />  
             </div>
             <div className="flex flex-col gap-1 items-center justify-center font-medium ">
                 <button className="">0</button>
