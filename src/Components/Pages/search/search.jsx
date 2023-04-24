@@ -9,7 +9,7 @@ function Search() {
 
   async function handleclick(e) {
     let data
-    query.query ? data = await fetchAPI('hastag_post', 'hastag', query.query) : data=''
+    query.query ? data = await fetchAPI('hashtag_post', 'hashtag','love') : data=''
     console.log(data)
     const dataObj = data.body.edge_hashtag_to_top_posts.edges.concat(
       data.body.edge_hashtag_to_media.edges);
@@ -30,14 +30,14 @@ function Search() {
       };
     });
     setSearchResults(readableObj)
-    console.log(SearchResults)
     const searchItems = SearchResults.map(item => {
         return <SearchEl obj={item} />
     }
     )
-    console.log(searchItems)
     setSearchElements(searchItems)
   }
+
+  console.log(searchelements,SearchResults)
 
   function handlequerychange(e) {
       setQuery({ [e.target.name]: e.target.value })
