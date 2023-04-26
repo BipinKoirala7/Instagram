@@ -8,9 +8,9 @@ import { UserContextProvider } from './Components/Context/user-profile-context'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
     <UserContextProvider>
-      <React.StrictMode>
+      {/* <React.StrictMode> */}
         <App />
-      </React.StrictMode>
+      {/* </React.StrictMode> */}
     </UserContextProvider>
   </Router>,
 )
