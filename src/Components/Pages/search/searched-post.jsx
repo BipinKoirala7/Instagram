@@ -1,10 +1,18 @@
-import React, { useState } from "react";
-import { useParams,useLocation ,useSearchParams} from "react-router-dom";
+import React, { useState,useEffect } from "react";
+import { useParams,useLocation} from "react-router-dom";
+
+import fetchAPI from "../../utils/fectch-api";
+import PostLayout from '../../utils/post-layout'
 
 function SearchedPosts() {
-    console.log(useParams(),useLocation(),useSearchParams())
+    console.log(useLocation())
+    const postId = useParams()
+    const [PostInfo ,setPostInfo] = useState({})
+    
     return (
-        <div>this is a post </div>
+        <>
+            <PostLayout obj={PostInfo} />
+        </>
     )
 }
 

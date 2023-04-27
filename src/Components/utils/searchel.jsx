@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function element(props) {
     const[hovered,setHovered] = useState(false)
     return (
-      <NavLink to={`/search/${props.obj.post_shortcode}`}>
+      <NavLink to={`/search/${props.obj.post_shortcode}`} state={props}>
         <div
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}

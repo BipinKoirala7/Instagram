@@ -13,7 +13,7 @@ import SearchedPost from './Components/Pages/search/searched-post'
 function App() {
 
   return (
-    <div className="w-[335px] bg-black text-white fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] grid grid-cols-1 grid-rows-app-grid h-screen max-h-screen">
+    <div className="w-[360px] bg-black text-white fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] grid grid-cols-1 grid-rows-app-grid h-screen max-h-screen">
       <div className="h-[100%] overflow-y-auto hide-scrollbar">
         <Routes>
           <Route
