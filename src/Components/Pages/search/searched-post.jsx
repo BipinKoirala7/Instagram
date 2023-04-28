@@ -8,7 +8,7 @@ import post from "../../utils/post-layout";
 function SearchedPosts() {
     const{state}= useLocation()
     const [PostInfo ,setPostInfo] = useState({})
-    
+    console.log(state)
     return (
         <>
             <PostLayout obj={state} />
