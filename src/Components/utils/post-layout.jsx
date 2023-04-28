@@ -6,7 +6,7 @@ export default function post(props) {
         <div className="px-4 flex py-2 items-center gap-2">
           <img
             className="w-8 aspect-square rounded-[50%]"
-            src="../cristiano-ronaldo.jpg"
+            src={props.obj.obj.thumbnail_resources[2].src}
             alt=""
           />
           <p>indian.tweets</p>
@@ -87,10 +87,10 @@ export default function post(props) {
           </svg>
         </div>
           <div className="font-light text-sm flex flex-col px-4 ">
-          <p>Liked by <span className="font-bold">kalyug.memes</span>  and 82,828 others</p>
+          <p>Liked by <span className="font-bold">kalyug.memes</span>  and {props.obj.obj.like_count.count} others</p>
           <div>
               <p>
-                <span className="font-bold">indian.tweets</span>  #NMACC Viral Tweets ....
+                <span className="font-bold">indian.tweets</span>  {props.obj.obj.caption.edges[0].node.text}
           </p>
             <button className="text-slate-300">View all comments</button>
           </div>
